@@ -1,5 +1,5 @@
 import React from "react";
-import "./Button.css";
+import { ButtonTest } from "./Button.styled";
 
 export interface ButtonProps {
     label: string;
@@ -8,7 +8,7 @@ export interface ButtonProps {
 const Button = (props: ButtonProps) => {
     return(
     <div>
-        <button className='custom-button'>{props.label}</button>
+        <ButtonTest>{props.label}</ButtonTest>
     </div>
     );
 };
